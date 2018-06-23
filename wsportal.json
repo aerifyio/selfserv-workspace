@@ -9,7 +9,7 @@
         },
         "AppName": {
             "Type": "String",
-            "Description": "Name of the portal.",
+            "Description": "AERIFYio Cloud Office Self Help Portal",
             "MinLength": "1",
             "MaxLength": "80",
             "AllowedPattern": "[A-Za-z0-9-]+",
@@ -19,22 +19,22 @@
         "PortalEmail": {
             "Type": "String",
             "Description": "Address from which emails will be sent from to approvers.",
-            "Default": "approval@roundtower.io"
+            "Default": "requests@aerify.io"
         },
         "ApproverEmail": {
             "Type": "String",
             "Description": "Email address that will receive WorkSpace Creation approval requests.",
-            "Default": "earl@eeg3.net"
+            "Default": "admin@aerify.io"
         },
         "DirectoryServicesId": {
             "Type": "String",
             "Description": "Directory Services ID configured within Amazon WorkSpaces.",
-            "Default": "d-90672a878e"
+            "Default": "d-9067289d95"
         },
         "ApprovedDomain": {
             "Type": "String",
             "Description": "Approved email domain that can sign up for Portal access.",
-            "Default": "eeg3.net"
+            "Default": "aerify.io"
         }
     },
     "Resources": {
